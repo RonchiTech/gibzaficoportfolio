@@ -1,0 +1,43 @@
+.containers {
+    display: inline-block;
+    margin: 35px 55px;
+    box-shadow: 0;
+    transition: box-shadow .4s;
+}
+
+.containers:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    color: #bd5652;
+    cursor: pointer;
+  }
+.card {
+  height: 350px;
+  width: 197px;
+  position: relative;
+}
+
+
+.info {
+  width: 201px;
+  text-align: center;
+}
+.info h3 {
+  margin: 45px 0 0 0;
+}
+.info p {
+  margin-top: 0;
+  font-size: 0.75rem;
+  color: gray;
+}
+
+.videoLogo{
+    position: absolute;
+    color: #c4302b;
+   left: 40%;
+   bottom: -9%;
+}
+
+
+
+  
+ 

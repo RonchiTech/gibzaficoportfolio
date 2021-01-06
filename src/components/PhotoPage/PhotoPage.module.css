@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.line {
+  font-size: 1.3rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  letter-spacing: 0.15rem;
+  margin-top: 90px;
+}
+
+.PhotoPage hr {
+  width: 70px;
+  height: 2px;
+  margin: 20 px auto;
+  background: #e2a35cf1;
+  border: 0;
+}
+
+.list {
+  margin-top: 65px;
+}
+
+.list li {
+  margin: 0 25px;
+}
