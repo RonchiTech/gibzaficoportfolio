@@ -1,0 +1,10 @@
+.ToolsPage{
+    background-color: #cacaca;
+    padding: 25px 0;
+}
+
+.line {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    padding-top: 15px
+}

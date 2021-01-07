@@ -16,7 +16,7 @@ const modal = (props) => {
           opacity: props.show ? '1' : '0',
         }}
       >
-         <iframe title="wedding" id="video" width="900" height="500" src={`//www.youtube.com/embed/${props.link}?rel=0`} frameborder="0" allowfullscreen></iframe>
+         <iframe title="wedding" id="video" width="900" height="500" src={`//www.youtube.com/embed/${props.link}?rel=0`} frameBorder="0" allowFullScreen></iframe>
       </div>
     </React.Fragment>
   );
