@@ -1,17 +1,12 @@
-
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+
   font-family: 'Barlow', sans-serif;
-  font-weight: 500;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}

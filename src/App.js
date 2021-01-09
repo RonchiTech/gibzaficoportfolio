@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import VideoPage from './components/VideoPage/VideoPage';
 import MainPage from './components/MainPage/MainPage';
 import PhotoPage from './components/PhotoPage/PhotoPage';
