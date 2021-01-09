@@ -3,6 +3,7 @@
     margin: 35px 55px;
     box-shadow: 0;
     transition: box-shadow .4s;
+    height: 450px;
 }
 
 .containers:hover {
