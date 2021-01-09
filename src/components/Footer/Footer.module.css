@@ -1,5 +1,5 @@
 .Footer{
-    height: 100px;
+    height: 120px;
     background: black;
     margin: 50px auto 0 auto;
     color: white;
@@ -14,7 +14,7 @@ h2{
     font-size: 1.1rem;
 }
 p{
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: .75rem;
     color: #b3aeae;
 }
