@@ -14,22 +14,22 @@ main {
 .main_div {
   position: absolute;
   left: 17%;
-  top: 24%;
+  top: 34%;
   text-align: left;
   width: 50%;
   color: #fff;
 }
 .signature {
   font-family: 'Great Vibes', cursive;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   width: 250px;
   margin: 0 0;
 }
 .myname {
   text-transform: uppercase;
-  font-size: 3.3rem;
+  font-size: 1.4rem;
   font-weight: 500;
-  margin: 0;
+  
 }
 .myskills {
   color: #f38200f1;
@@ -40,8 +40,8 @@ main {
   font-style: inherit;
   letter-spacing: -.05rem;
   word-spacing: -0.1rem;
-  font-size: 2.7rem;
-  line-height: 3rem;
+  font-size: 1.7rem;
+  line-height: 1.8rem;
 
 }
 
@@ -50,4 +50,23 @@ main {
   .main_div {
     top: 44%;
   }
+
+.signature {
+  font-size: 3.5rem;
+}
+.myname {
+  text-transform: uppercase;
+  font-size: 3.4rem;
+  font-weight: 500;
+  
+}
+.myskills {
+
+ 
+  letter-spacing: -.05rem;
+  word-spacing: -0.1rem;
+  font-size: 3rem;
+  line-height: 2.8rem;
+
+}
 }
