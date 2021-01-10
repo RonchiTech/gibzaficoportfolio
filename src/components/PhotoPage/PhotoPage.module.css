@@ -1,23 +1,41 @@
-
+.PhotoPage{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
 .line {
+  width: 70%;
   font-size: 1.3rem;
-  color: #000;
   letter-spacing: 0.15rem;
-  margin-top: 90px;
+  margin: 90px auto 0 auto;
+  text-align: center;
+
 }
 
 .PhotoPage hr {
   width: 70px;
   height: 2px;
-  margin: 20 px auto;
+  margin: 20px auto;
   background: #e2a35cf1;
   border: 0;
+ 
 }
 
-.list {
-  margin-top: 65px;
-}
+@media screen and (min-width: 64rem) {
 
-.list li {
-  margin: 0 25px;
+  
+  .LinkList {
+    width: 70%;
+    margin: 30px auto 0 auto;
+    text-align: center;
+  
+  }
+  
+  .LinkList li {
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  
 }

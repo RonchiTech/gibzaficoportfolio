@@ -1,10 +1,15 @@
 .ToolsPage{
-    background-color: #cacaca;
-    padding: 25px 0;
+    background-color: hsla(0, 0%, 88%, 0.39);
+    height: 130px;
+}
+.mainContainer{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .line {
     font-size: 1.3rem;
     letter-spacing: 2px;
-    padding-top: 15px
+    padding-top: 25px
 }

@@ -8,7 +8,7 @@ const photoPage = () => {
     <section className={classes.PhotoPage}>
       <h2 className={classes.line}>Photographs</h2>
       <hr />
-      <ul className={classes.list}>
+      <ul className={classes.LinkList}>
         <li>
           <NavLink
             activeStyle={{
@@ -44,7 +44,6 @@ const photoPage = () => {
             style={{ textDecoration: 'none', color: '#000' }}
             to="/photos/random"
             exact
-
           >
             Random
           </NavLink>

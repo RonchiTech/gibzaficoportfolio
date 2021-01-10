@@ -28,9 +28,6 @@ const Random = () => {
   if (showMore) {
     moreImages = (
       <div>
-        <img src={Image5} alt="5" />
-        <img src={Image6} alt="6" />
-        <img src={Image7} alt="7" />
         <img src={Image8} alt="8" />
         <img src={Image9} alt="9" />
         <img src={Image10} alt="10" />
