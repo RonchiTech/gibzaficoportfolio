@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 main {
   height: 85vh;
   width: 100vw;
   position: relative;
-  background: url('../../assets//imgs/eclipse.jpg') no-repeat center center fixed;
+  background: black; 
+  /* url('../../assets//imgs/eclipse.jpg') no-repeat center center fixed; */
   background-size: cover;
   background-position: bottom
   
@@ -12,11 +14,10 @@ main {
 .main_div {
   position: absolute;
   left: 17%;
-  top: 44%;
+  top: 24%;
   text-align: left;
   width: 50%;
   color: #fff;
-  font-weight: 500;
 }
 .signature {
   font-family: 'Great Vibes', cursive;
@@ -26,10 +27,8 @@ main {
 }
 .myname {
   text-transform: uppercase;
-
-
   font-size: 3.3rem;
-  font-weight: bold;
+  font-weight: 500;
   margin: 0;
 }
 .myskills {
@@ -44,4 +43,11 @@ main {
   font-size: 2.7rem;
   line-height: 3rem;
 
+}
+
+@media screen and (min-width:64rem){
+ 
+  .main_div {
+    top: 44%;
+  }
 }

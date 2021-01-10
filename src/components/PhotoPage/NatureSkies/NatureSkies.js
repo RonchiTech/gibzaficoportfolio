@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './NatureSkies.css';
+import classes from './NatureSkies.module.css';
 import Button from '../../UI/Button/Button'
 import Image1 from '../../../assets/imgs/skynatureImages/1.jpg';
 import Image2 from '../../../assets/imgs/skynatureImages/2.jpg';
@@ -31,7 +31,7 @@ const NatureSkies = () => {
   };
   if (showMore) {
     moreImages = (
-      <div>
+      <div >
         <img src={Image5} alt="5" />
         <img src={Image6} alt="6" />
         <img src={Image7} alt="7" />
@@ -51,7 +51,7 @@ const NatureSkies = () => {
     );
   }
   return (
-    <div className="image-container">
+    <div className={classes.imageContainer}>
       <img src={Image1} alt="1" />
       <img src={Image2} alt="2" />
       <img src={Image3} alt="3" />

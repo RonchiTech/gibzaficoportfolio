@@ -17,6 +17,9 @@
   position: relative;
 }
 
+.card img{
+  width: 97%;
+}
 
 .info {
   width: 201px;
@@ -24,6 +27,7 @@
 }
 .info h3 {
   margin: 45px 0 0 0;
+
 }
 .info p {
   margin-top: 0;
@@ -36,6 +40,13 @@
     color: #c4302b;
    left: 40%;
    bottom: -9%;
+}
+
+@media screen and (min-width: 64rem) {
+  .card img{
+    width: 99.5%;
+  }
+
 }
 
 

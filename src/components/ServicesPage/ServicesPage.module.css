@@ -9,26 +9,27 @@
   letter-spacing: 0.15rem;
   margin-top: 30px;
 }
-
 hr {
   width: 70px;
   height: 2px;
   margin: 20px auto;
   background: #e2a35cf1;
   border: 0;
+  
 }
-p {
+.paragraph {
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: bold;
+  color: #000;
 }
+
+
 .mainContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-
 li{
   margin: 20px 0;
   color: #8d8c8c;
@@ -36,4 +37,9 @@ li{
   font-size: 0.88rem;
   display: block;
 }
-
+@media screen and (min-width: 64rem) {
+  .mainContainer {
+    flex-direction: row;
+  }
+ 
+}

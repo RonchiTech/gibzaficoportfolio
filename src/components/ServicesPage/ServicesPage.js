@@ -11,7 +11,7 @@ const servicesPage = () => {
       <hr />
       <div className={classes.mainContainer}>
         <ServicePage src={EditPhotos} alt="photo edits">
-          <p>Photo Editing</p>
+          <p className={classes.paragraph}>Photo Editing</p>
           <ul className={classes.list}>
             <li>Raw Conversion </li>
             <li>5 Photographs per Package</li>
@@ -20,7 +20,7 @@ const servicesPage = () => {
         </ServicePage>
 
         <ServicePage src={WeddingVids} alt="wedding edits">
-          <p>Wedding Films</p>
+          <p className={classes.paragraph}>Wedding Films</p>
           <ul>
             <li>7-8 Minute Wedding Film </li>
             <li>Full Day Coverage</li>
@@ -31,7 +31,7 @@ const servicesPage = () => {
         </ServicePage>
 
         <ServicePage src={EditVids} alt="vids edits">
-          <p>Video Editing</p>
+          <p className={classes.paragraph}>Video Editing</p>
           <ul>
             <li>7-10 Minute Video Film </li>
             <li>Blah blah blah</li>

@@ -21,9 +21,8 @@
 .h1 {
   color: #e2a35cf1;
   text-transform: uppercase;
-  letter-spacing: 1.4rem;
-  line-height: 1.2;
-  font-size: 4rem;
+  letter-spacing: 1.1rem;
+  font-size: 3rem;
   text-align: center;
 
 }
@@ -111,4 +110,11 @@
   to {
     opacity: 1;
   }
+}
+
+@media screen and (min-width: 64rem) {
+.h1 {
+  letter-spacing: 1.4rem;
+  font-size: 4rem;
+}
 }

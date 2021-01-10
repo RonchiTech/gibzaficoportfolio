@@ -1,14 +1,22 @@
 .Modal {
     position: fixed;
     z-index: 500;
-    width: 30%;
     top: 25%;
+    left: 2%;
     transition: all 0.3s ease-out;
+    width: 100%;
 }
-
-@media (min-width: 600px) {
+.frame {
+    width: 80%;
+    height: 350px;
+}
+@media screen and (min-width: 64rem) {
     .Modal {
         width: 500px;
         left: calc(40% - 250px);
+    }
+    .frame {
+        width: 900px;
+        height: 500px;
     }
 }

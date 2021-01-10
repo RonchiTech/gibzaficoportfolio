@@ -3,7 +3,7 @@ import Card from './Card/Card';
 import Video1 from '../../../assets/imgs/peytonalex.jpg';
 import Video2 from '../../../assets/imgs/3rd.jpg';
 import Video4 from '../../../assets/imgs/4th.jpg';
-// import classes from './Cards.module.css';
+import classes from './Cards.module.css';
 import Modal from '../Modal/Modal';
 const Cards = (props) => {
   const [showModal, setShowModal] = useState(false);
@@ -18,7 +18,7 @@ const Cards = (props) => {
   };
  
   return (
-    <div>
+    <div className={classes.cardsContainer}>
       <Modal
         show={showModal}
         modalClosed={closeModalHandler}
